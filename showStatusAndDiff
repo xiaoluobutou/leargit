@@ -1,0 +1,48 @@
+#modify README.md
+$vim README.md
+>>this is learngit repository!
+
+#show status 
+$git status
+# On branch master
+# Changes not staged for commit:
+# (use "git add <file>..." to update what will be committed)
+# (use "git checkout --<file>..." to discard changes in working directory)
+# 
+#	modified: README.md
+#
+#no changes added to commit (use "git add" and/or "git commit -a")
+
+#show different
+$git diff
+# diff --git a/README.md b/README.md
+# index 46d12312312,12312312312s,100064
+# ----- a/README.md
+# +++++ b/README.txt
+# @@-1,2+1,2@@
+# - "#this is learngit!" modify
+# + this is learngit repository!
+# - second modify baidu
+
+
+#add README.md
+$git add README.md
+
+# after the adjunction,we will use the git status command to look at the current# status of the repository
+$git status 
+# On branch master
+# Changes to be committed:
+# 	（use "git reset HEAD <file>>..." to unstage)
+#
+# 	modified: README.md
+#
+
+
+#commit modification
+$git commit -m "add this is learn git repository! to README.md"
+# [master eas1231412] add this is learn git repository! to README.md
+# 1 file changed, 1 insertion(+), 1 deletion(-)
+
+$git status
+# Obranch master
+# nothing to commit (working directory clean)
