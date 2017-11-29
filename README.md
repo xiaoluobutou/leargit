@@ -1,5 +1,1 @@
-"#this is learngit!" 
-modify
-
-second modify
-baidu
+This is learn git repository!
