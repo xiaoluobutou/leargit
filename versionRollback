@@ -1,0 +1,23 @@
+#after modified README.md file
+
+#show repository status
+$git status 
+
+#show difference/modify in the README.md file of repository
+$git diff README.md
+
+#git log  command will show modified record
+$git log 
+
+#git reflog command will show command history
+$git reflog 
+
+#git reset --hard "commit id" roolback to the state of "commit id"
+$git reset --hard "commit id"
+
+#git check --"file name" command to rollback to stageBuffer or vision library
+$git check --"file name"
+
+#git rm "filename" command to remove "filename" file.
+$git rm "filename" 
+$git commit -m "remove"
