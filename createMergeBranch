@@ -1,0 +1,17 @@
+#show branch 
+$git branch 
+
+#create branch<name>
+$git branch <name>
+
+#switch branch <name>
+$git checkout <name>
+
+#create + switch branch
+$git checkout -b <name>
+
+#merger a branch to current branch 
+$git merge <name>
+
+#delete branch 
+$git branch -d <name>
