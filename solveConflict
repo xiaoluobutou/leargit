@@ -1,0 +1,16 @@
+#disables Fast forward
+$git merge --no-ff -m "merge with no-ff" dev
+
+#stash be able to save work-scene
+$git stash 
+
+#show stash list 
+$git stash list
+
+#apply and drop 
+$ git stash applystash@{0}
+$ git stash drop
+
+# the function of the git stash pop command contain the apply and drop command
+$git stash pop
+

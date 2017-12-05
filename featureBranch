@@ -1,0 +1,6 @@
+#git branch -b feature-branch command to create and switch to feature-branch
+$git branch -b feature-branch
+
+#git branch -d feature-branch command to delete feature-branch
+$git branch -d feature-branch 
+ 
