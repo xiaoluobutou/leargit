@@ -13,3 +13,4 @@ $ git stash drop
 
 # the function of the git stash pop command contain the apply and drop command
 $git stash pop
+
